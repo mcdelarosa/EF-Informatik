@@ -16,7 +16,7 @@ def play():
         inp = eingabe()
         analise(inp)
         print(inp)
-        show()
+        game_over()
     # if won():
     #     ShowLifes()
     # else:
@@ -24,7 +24,7 @@ def play():
 
 
 def ShowLifes():
-    return print("Lebenspunkten: " + game[1])
+    return print("Lebenspunkten: " + str(game[1]))
 def eingabe():
     game[2] = input('Buchstabe? ')
     while not is_valid(game[2]):
@@ -33,8 +33,7 @@ def eingabe():
     return game[2].lower()
 
 def is_valid(inp):
-    analise(game[2])
-    return True
+    analise(inp)
 def analise(valid_inp):
     if valid_inp in game[0]:
         gefunden.append(valid_inp)
@@ -42,7 +41,9 @@ def analise(valid_inp):
     else:
         falsch_geraten.append(valid_inp)
         game[1]= game[1] - 1
-        print(game[1])
+
+
+
 def show():
     print('Falsche Buchstaben:', falsch_geraten)
     for game[2] in searched:
@@ -53,13 +54,15 @@ def show():
     print('')
 
 def won():
-
-    print("Du hast gewonnen!")
-    return True
+    print("Das war richtig!")
+    #return True
 
 
 def game_over():
+    print("se puede")
     if game[1] > 0:
+        print("ok")
+        show()
         return False
     else:
         print("Game Over")
