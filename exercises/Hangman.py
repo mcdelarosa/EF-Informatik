@@ -14,6 +14,7 @@ falsch_geraten = []
 def play():
     while not game_over():
         inp = eingabe()
+        print("a")
         analise(inp)
         print(inp)
         game_over()
@@ -44,6 +45,8 @@ def analise(valid_inp):
 
 
 
+
+
 def show():
     print('Falsche Buchstaben:', falsch_geraten)
     for game[2] in searched:
@@ -63,7 +66,6 @@ def game_over():
     if game[1] > 0:
         print("ok")
         show()
-        return False
     else:
         print("Game Over")
         return True
