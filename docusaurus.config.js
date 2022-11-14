@@ -65,7 +65,7 @@ const config = {
         title: 'EF Blog',
         logo: {
           alt: 'Page Logo',
-          src: 'img/favicon.ico',
+          src: 'img/Donut_1.png',
         },
         items: [
           {to: '/', label: 'Blog', position: 'left'},
