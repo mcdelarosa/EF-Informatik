@@ -30,7 +30,7 @@ class Numtrip:
         print(' ')
     def columns():
         print(Numtrip.y[Numtrip.coordinateY], end="")
-        Numtrip.coordinateY = Numtrip.coordinateY +1
+        Numtrip.coordinateY = Numtrip.coordinateY + 1
 
 
 
