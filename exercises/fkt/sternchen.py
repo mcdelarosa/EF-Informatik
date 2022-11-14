@@ -3,7 +3,7 @@ width = input("Enter a width for the rectangle")
 y = int(height)
 x = int(width)
 def constructionOfBase(number):
-    for repetitions in range(number, 0, -1):
+    for repetitions in range(number):
         print("*", end="")
     print("")
 
