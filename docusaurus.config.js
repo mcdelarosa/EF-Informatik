@@ -71,7 +71,7 @@ const config = {
           {to: '/', label: 'Blog', position: 'left'},
           {
             type: 'doc',
-            docId: 'about-me.md',
+            docId: 'Steckbrief-Marc.md',
             position: 'left',
             label: 'Dokumente',
           },
@@ -90,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'Dokumente',
-                to: '/docs/about-me.md',
+                to: '/docs/Steckbrief-Marc.md',
               },
             ],
           },
