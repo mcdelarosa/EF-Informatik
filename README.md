@@ -7,5 +7,5 @@ def installation():
         print("downloading...")
     else:
         print("You didn't download anything :(")
-
+installation()
 ```
