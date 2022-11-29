@@ -4,6 +4,8 @@ class Numtrip:
     y = ["0", "1", "2", "3", "4"]
     number = 0
     coordinateY = 0
+    wanted = input("input your coordinate")
+
     def __init__(self):
         self.board = [
             [2, 4, 1, 8, 8],
@@ -31,11 +33,26 @@ class Numtrip:
     def columns():
         print(Numtrip.y[Numtrip.coordinateY], end="")
         Numtrip.coordinateY = Numtrip.coordinateY + 1
+    def analyse(self):
+        coordinate = Numtrip.wanted.strip()
+        """
+        if Numtrip.x in coordinate[1].upper() and Numtrip.y in coordinate[1]:
+            print("coordinates1")
+        elif Numtrip.x in coordinate[0].upper() and Numtrip.y in coordinate[0]:
+            print("coordinates2")
+        else:
+            print("no")"""
 
-
+        if coordinate[1].upper() in Numtrip.x and coordinate[0] in Numtrip.y:
+            print("coordinates1")
+        elif coordinate[0].upper() in Numtrip.x and coordinate[0] in Numtrip.y:
+            print("coordinates2")
+        else:
+            print("no")
 
 x = Numtrip()
 x.rows()
 x.table()
+x.analyse()
 
 
