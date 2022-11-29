@@ -1,4 +1,3 @@
-## **Steckbrief Marc:**
 >Meine Hobbies:
 >- *Videospiele spielen*
 >- *Parkour*
