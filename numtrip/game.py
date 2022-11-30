@@ -1,12 +1,18 @@
+
+GREEN = '\033[1;32m'
+WHITE = '\033[1;37m'
+RED = '\033[1;31m'
+
 class Numtrip:
     space = " "
-    x = [space, "A", "B", "C", "D", "E"]
-    y = ["0", "1", "2", "3", "4"]
+    axis_x = ["A", "B", "C", "D", "E"]
+    axis_y = ["0", "1", "2", "3", "4"]
     number = 0
-    coordinateY = 0
-    wanted = input("input your coordinate")
+    x = -1
+    y = -1
 
     def __init__(self):
+
         self.board = [
             [2, 4, 1, 8, 8],
             [4, 2, 8, 2, 1],
@@ -14,45 +20,40 @@ class Numtrip:
             [2, 8, 1, 4, 1],
             [2, 4, 4, 4, 4]
         ]
-    def table (self):
-        for zeile in self.board:
-            for zelle in zeile:
-                print(' -', end='')
-            print(Numtrip.space)
-            Numtrip.columns()
-            print(Numtrip.space, end='')
-            for zelle in zeile:
-                print(f'|{zelle}', end='')
-            print('|')
 
-    def rows (self):
-        while Numtrip.number <= len(self.board):
-            print(Numtrip.x[Numtrip.number], " ", end="")
-            Numtrip.number = Numtrip.number + 1
-        print(' ')
-    def columns():
-        print(Numtrip.y[Numtrip.coordinateY], end="")
-        Numtrip.coordinateY = Numtrip.coordinateY + 1
-    def analyse(self):
-        coordinate = Numtrip.wanted.strip()
-        """
-        if Numtrip.x in coordinate[1].upper() and Numtrip.y in coordinate[1]:
-            print("coordinates1")
-        elif Numtrip.x in coordinate[0].upper() and Numtrip.y in coordinate[0]:
-            print("coordinates2")
-        else:
-            print("no")"""
+    def ask_input(self):
 
-        if coordinate[1].upper() in Numtrip.x and coordinate[0] in Numtrip.y:
-            print("coordinates1")
-        elif coordinate[0].upper() in Numtrip.x and coordinate[0] in Numtrip.y:
-            print("coordinates2")
-        else:
-            print("no")
+        try:
+            x, y = input("input your coordinate with spaces (<Letter> <Number>): ").upper().split()
+            self.x = self.axis_x.index(x)
+            self.y = self.axis_y.index(y)
+            self.board[self.x][self.y - 1] = -1
+            return True
+        except:
+            self.x = -1
+            self.y = -1
+            return False
+
+
+    def printTable(self):
+
+        for idx, header in enumerate([GREEN + ' '] + self.axis_x):
+            print(' ' + header, end='')
+
+        print()
+
+        for idx, _axis_y in enumerate(self.board):
+            print(GREEN + ' ' + self.axis_y[idx], end='') # first column, reference board
+            for idx2,_axis_x in enumerate(_axis_y):
+                if _axis_x == -1:
+                    print(RED + ' ·', end='')
+                else:
+                    print(WHITE + ' ' + str(_axis_x), end='')
+            print('')
+
 
 x = Numtrip()
-x.rows()
-x.table()
-x.analyse()
-
-
+while True:
+    while not x.ask_input():
+        print(" wrong coordinates ...")
+    x.printTable()
