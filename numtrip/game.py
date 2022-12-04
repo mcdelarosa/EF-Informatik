@@ -48,7 +48,6 @@ class Numtrip:
         for idx, _axis_y in enumerate(self.board):
             print(MyColors.GREEN + ' ' + Numtrip.axis_y[idx], end='') # first column, reference board
             for idx2,_axis_x in enumerate(_axis_y):
-                #fill4(Numtrip.x, Numtrip.y, GREEN, WHITEB )
                 if _axis_x == -1:
                     print(MyColors.RED + ' ·', end='')
                 else:
