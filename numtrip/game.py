@@ -28,7 +28,6 @@ class Numtrip:
             self.x = Numtrip.axis_x.index(x)
             self.y = Numtrip.axis_y.index(y)
             self.number = self.board[self.y][self.x]
-            #self.board[self.x][self.y - 1] = -1
             print(f"{self.x} . {self.y} -- {self.number}")
             self.fill4(self.number, self.x, self.y, -1)
 
@@ -64,9 +63,9 @@ class Numtrip:
             return
 
         position_value = self.board[y][x]
-        print(" >> " + str(position_value))
+
         if locationValue == position_value:
-            print(" ...entro")
+
             self.board[y][x] = newNumber
             self.fill4(locationValue, x, y + 1, newNumber)  # unten
             self.fill4(locationValue, x, y - 1, newNumber)  # oben
