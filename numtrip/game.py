@@ -1,3 +1,4 @@
+import random
 class MyColors:
     GREEN = '\033[1;32m'
     WHITE = '\033[1;37m'
@@ -28,9 +29,8 @@ class Numtrip:
             self.x = Numtrip.axis_x.index(x)
             self.y = Numtrip.axis_y.index(y)
             self.number = self.board[self.y][self.x]
-            print(f"{self.x} . {self.y} -- {self.number}")
-            self.fill4(self.number, self.x, self.y, -1)
-
+            self.fill4(self.number, self.x, self.y, True)
+            self.gravitation()
             return True
         except:
             self.x = -1
@@ -54,7 +54,7 @@ class Numtrip:
                     print(MyColors.WHITE + ' ' + str(_axis_x), end='')
             print('')
 
-    def fill4(self, locationValue, x, y, newNumber):
+    def fill4(self, locationValue, x, y, choosenNumber):
 
         if len(self.board) <= y:
             return
@@ -62,18 +62,46 @@ class Numtrip:
             return
 
         position_value = self.board[y][x]
-
         if locationValue == position_value:
+            if choosenNumber:
+                self.board[y][x] = self.board[y][x]*2
+                print(f' y:{y} x:{x}')
+            else:
+                self.board[y][x] = -1
 
-            self.board[y][x] = newNumber
-            self.fill4(locationValue, x, y + 1, newNumber)  # unten
-            self.fill4(locationValue, x, y - 1, newNumber)  # oben
-            self.fill4(locationValue, x + 1, y, newNumber)  # rechts
-            self.fill4(locationValue, x - 1, y, newNumber)  # links
+            self.fill4(locationValue, x, y + 1, False)  # unten
+            self.fill4(locationValue, x, y - 1, False)  # oben
+            self.fill4(locationValue, x + 1, y, False)  # rechts
+            self.fill4(locationValue, x - 1, y, False)  # links
+
+    def gravitation(self):
+        bottom = len(self.board)
+        for x in range(len(self.board[0])):
+            for y in reversed(range(bottom)):
+                # print(f" ... {x} . {y}")
+                if self.board[y][x] == -1 and y > 0:
+                    nextUpValue = self.getFirstUpNumber(y, x)
+                    if nextUpValue != None:
+                        self.board[y][x] = nextUpValue["value"]
+                        self.board[nextUpValue["y"]][x] = -1
+            for y in reversed(range(bottom)):
+                if self.board[y][x] == -1 and y >= 0:
+                    self.board[y][x] = random.randint(1, 8)
+
+    def getFirstUpNumber(self, pos_y, pos_x):
+        # print(f" ... ... y = {pos_y} , x= {pos_x}")
+        for y in reversed(range(pos_y)):
+            value = self.board[y][pos_x]
+            # print(f" ... ... ... {value}")
+            if value != -1:
+                return {"y": y, "value": value }
+        return None
+
 
 game = Numtrip()
 
 while True:
+    game.printTable()
     while not game.ask_input():
         print(" wrong coordinates ...")
-    game.printTable()
+
