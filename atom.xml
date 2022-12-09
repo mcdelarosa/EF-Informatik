@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mcdelarosa.github.io/EF-Informatik/</id>
     <title>Lern Blog Blog</title>
-    <updated>2022-11-29T14:14:39.000Z</updated>
+    <updated>2022-12-09T15:12:50.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mcdelarosa.github.io/EF-Informatik/"/>
     <subtitle>Lern Blog Blog</subtitle>
@@ -11,18 +11,56 @@
         <title type="html"><![CDATA[numtrip/datenstruktur]]></title>
         <id>/numtrip/datenstruktur</id>
         <link href="https://mcdelarosa.github.io/EF-Informatik/numtrip/datenstruktur"/>
-        <updated>2022-11-29T14:14:39.000Z</updated>
+        <updated>2022-12-09T15:12:50.000Z</updated>
         <summary type="html"><![CDATA[img1.png]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q"></p>]]></content>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q">
+<img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q"></p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[**Wiedereinstieg in Python**]]></title>
+        <title type="html"><![CDATA[blog]]></title>
+        <id>/2022/12/02/blog</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/12/02/blog"/>
+        <updated>2022-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ein einwandfreier Tag]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-einwandfreier-tag">Ein einwandfreier Tag<a class="hash-link" href="#ein-einwandfreier-tag" title="Direkter Link zur Überschrift">​</a></h2><p>Am heutigen Tag war Herr Hofer krank, deshalb waren wir allein im Klassenzimmer. \
+Man könnte fast sagen, dass wir allein waren, da die Meisten keine Schule am Nachmittag hatten. \
+Unsere Aufträge waren im Grunde wenig und kurz, doch das war nicht der Fall.
+Zeit habe ich verbracht um erst nur eine Aufgabe zu verstehen und noch weiter damit ich das Programm zum Laufen bringe...\
+Habe noch Glück gehabt, dass ich damit fertig bin, sonst würde ich irrewerden!\
+Ein weiterer Problem ist immernoch das Hochladen der Dokumente auf GitHub...</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[blog]]></title>
+        <id>/2022/11/30/blog</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/30/blog"/>
+        <updated>2022-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stolze Arbeit]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stolze-arbeit">Stolze Arbeit<a class="hash-link" href="#stolze-arbeit" title="Direkter Link zur Überschrift">​</a></h2><p>Mit Hilfe, weil ich für lange stecken blieb, habe ich es geschafft das Numtrip endlich laufen zu bringen.\
+Vieles war unnötig und konnte verkürzt/vereinfacht werden, was ich auch tat.\
+Als alles unnötige ersetzt wurde, war mein Code sowohl kürzer als auch verständlicher geworden und das hatte mir auch erleichtert.\
+Eine wichtige Änderung war die Tabelle des Numtrips, da habe ich versucht die Symbolen zu löschen, da diese
+die Tabelle nicht proportional machten. Jetzt wird alles mit verschiedenen Farben angezeigt anstatt dieser Versuch einer Tabelle</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[blog]]></title>
+        <id>/2022/11/29/blog</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/29/blog"/>
+        <updated>2022-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ein Auf und Ab!]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-auf-und-ab">Ein Auf und Ab!<a class="hash-link" href="#ein-auf-und-ab" title="Direkter Link zur Überschrift">​</a></h2><p>Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.
+Alles nur weil ich <code>.split()</code> nicht verstanden hatte. Jetzt ist mir alles klargeworden. \
+Das Numtrip ist auch mühsam, doch man braucht immer eine Challenge, um zu lernen, sonst gäbe es kein Grund schwieriges zu lösen!\
+Ich habe festgestellt, dass GitHub manchmal Schwierigkeiten hat etwas hochzuladen...
+Das muss ich mit Herr Hofer anschauen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wiedereinstieg in Python]]></title>
         <id>/2022/08/26/blog</id>
         <link href="https://mcdelarosa.github.io/EF-Informatik/2022/08/26/blog"/>
         <updated>2022-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Das heutige Thema war Python/Tigerjython was mir nicht wirklich gefällt, da das nur eine Bibliothek,]]></summary>
         <content type="html"><![CDATA[<p>Das heutige Thema war Python/Tigerjython was mir nicht wirklich gefällt, da das nur eine Bibliothek,
-die keiner im Alltag braucht und nutzlos ist.</p><h1><strong><em>Tigerjython ist doof</em></strong></h1><p>Nichtsdestotrotz habe ich einen, in meinen Augen, super Code programmiert, und zwar das ZickZack Programm
+die keiner im Alltag braucht und nutzlos ist.</p><h1>Tigerjython ist doof</h1><p>Nichtsdestotrotz habe ich einen, in meinen Augen, super Code programmiert, und zwar das ZickZack Programm
 im ersten Kapitel:</p><div class="language-py codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-py codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> turtle </span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">color </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"red"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"orange"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"lime"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pensize </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">5</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">right</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">60</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">for</span><span class="token plain"> x </span><span class="token keyword" style="color:#00009f">in</span><span class="token plain"> color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    left</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">120</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    pencolor</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">x</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    forward</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">20</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    right</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">120</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    forward</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">20</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="In die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Hat eine grössere Aufwendung gebraucht, doch es hat sich gelohnt.</p>]]></content>
     </entry>
 </feed>
