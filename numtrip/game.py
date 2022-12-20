@@ -30,13 +30,15 @@ class Numtrip:
             [2, 4, 4, 4, 4]
         ]
 
+        self.actual_board = self.builder()
+
     def ask_input(self):
 
         try:
             x, y = input("input your coordinate with spaces (<Letter> <Number>): ").upper().split()
             self.x = Numtrip.axis_x.index(x)
             self.y = Numtrip.axis_y.index(y)
-            self.number = self.board[self.y][self.x]
+            self.number = self.actual_board[self.y][self.x]
             self.fill4(self.number, self.x, self.y, True)
             self.gravitation()
             return True
@@ -53,7 +55,7 @@ class Numtrip:
 
         print()
 
-        for idx, _axis_y in enumerate(self.board):
+        for idx, _axis_y in enumerate(self.actual_board):
             print(MyColors.RED + ' ' + Numtrip.axis_y[idx], end='') # first column, reference board
             for idx2,_axis_x in enumerate(_axis_y):
 
@@ -67,18 +69,18 @@ class Numtrip:
 
     def fill4(self, locationValue, x, y, choosenNumber):
 
-        if len(self.board) <= y:
+        if len(self.actual_board) <= y:
             return
-        if len(self.board[y]) <= x:
+        if len(self.actual_board[y]) <= x:
             return
 
-        position_value = self.board[y][x]
+        position_value = self.actual_board[y][x]
         if locationValue == position_value:
             if choosenNumber:
-                self.board[y][x] = self.board[y][x]*2
+                self.actual_board[y][x] = self.actual_board[y][x]*2
                 self.logger(f' y:{y} x:{x}')
             else:
-                self.board[y][x] = -1
+                self.actual_board[y][x] = -1
 
             self.fill4(locationValue, x, y + 1, False)  # unten
             self.fill4(locationValue, x, y - 1, False)  # oben
@@ -86,34 +88,41 @@ class Numtrip:
             self.fill4(locationValue, x - 1, y, False)  # links
 
     def gravitation(self):
-        bottom = len(self.board)
-        for x in range(len(self.board[0])):
+        bottom = len(self.actual_board)
+        for x in range(len(self.actual_board[0])):
             for y in reversed(range(bottom)):
                 self.logger(f" ... {x} . {y}")
-                if self.board[y][x] == -1 and y > 0:
+                if self.actual_board[y][x] == -1 and y > 0:
                     nextUpValue = self.getFirstUpNumber(y, x)
                     if nextUpValue != None:
-                        self.board[y][x] = nextUpValue["value"]
-                        self.board[nextUpValue["y"]][x] = -1
+                        self.actual_board[y][x] = nextUpValue["value"]
+                        self.actual_board[nextUpValue["y"]][x] = -1
             for y in reversed(range(bottom)):
-                if self.board[y][x] == -1 and y >= 0:
-                    self.board[y][x] = 2**random.randint(0, 3)
+                if self.actual_board[y][x] == -1 and y >= 0:
+                    self.actual_board[y][x] = 2**random.randint(0, 3)
 
     def getFirstUpNumber(self, pos_y, pos_x):
         # print(f" ... ... y = {pos_y} , x= {pos_x}")
         for y in reversed(range(pos_y)):
-            value = self.board[y][pos_x]
+            value = self.actual_board[y][pos_x]
             self.logger(f" ... ... ... {value}")
             if value != -1:
                 return {"y": y, "value": value }
         return None
-
+    def builder(self):
+        newBoard = self.board
+        for y in range(len(self.axis_y)):
+            for x in range(len(self.axis_x)):
+                newBoard[x][y]= 2**random.randint(0, 3)
+        return newBoard
     def logger(self, message):
         if self.DEBUG:
             print(message)
 
+
 game = Numtrip()
 game.DEBUG = False
+
 
 while True:
     game.printTable()
