@@ -2,20 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mcdelarosa.github.io/EF-Informatik/</id>
     <title>Lern Blog Blog</title>
-    <updated>2022-12-20T10:02:48.000Z</updated>
+    <updated>2022-12-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mcdelarosa.github.io/EF-Informatik/"/>
     <subtitle>Lern Blog Blog</subtitle>
     <icon>https://mcdelarosa.github.io/EF-Informatik/img/Donut_1.png</icon>
-    <entry>
-        <title type="html"><![CDATA[numtrip/datenstruktur]]></title>
-        <id>/numtrip/datenstruktur</id>
-        <link href="https://mcdelarosa.github.io/EF-Informatik/numtrip/datenstruktur"/>
-        <updated>2022-12-20T10:02:48.000Z</updated>
-        <summary type="html"><![CDATA[img1.png]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q">
-<img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q"></p>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[blog]]></title>
         <id>/2022/12/02/blog</id>
@@ -52,6 +43,15 @@ Alles nur weil ich <code>.split()</code> nicht verstanden hatte. Jetzt ist mir a
 Das Numtrip ist auch mühsam, doch man braucht immer eine Challenge, um zu lernen, sonst gäbe es kein Grund schwieriges zu lösen!\
 Ich habe festgestellt, dass GitHub manchmal Schwierigkeiten hat etwas hochzuladen...
 Das muss ich mit Herr Hofer anschauen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datenstruktur]]></title>
+        <id>/2022/11/29/numtrip/datenstruktur</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/29/numtrip/datenstruktur"/>
+        <updated>2022-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[img1.png]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q">
+<img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q"></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wiedereinstieg in Python]]></title>

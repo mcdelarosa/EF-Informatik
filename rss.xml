@@ -4,19 +4,10 @@
         <title>Lern Blog Blog</title>
         <link>https://mcdelarosa.github.io/EF-Informatik/</link>
         <description>Lern Blog Blog</description>
-        <lastBuildDate>Tue, 20 Dec 2022 10:02:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
-        <item>
-            <title><![CDATA[numtrip/datenstruktur]]></title>
-            <link>https://mcdelarosa.github.io/EF-Informatik/numtrip/datenstruktur</link>
-            <guid>/numtrip/datenstruktur</guid>
-            <pubDate>Tue, 20 Dec 2022 10:02:48 GMT</pubDate>
-            <description><![CDATA[img1.png]]></description>
-            <content:encoded><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q">
-<img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q"></p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[blog]]></title>
             <link>https://mcdelarosa.github.io/EF-Informatik/2022/12/02/blog</link>
@@ -53,6 +44,15 @@ Alles nur weil ich <code>.split()</code> nicht verstanden hatte. Jetzt ist mir a
 Das Numtrip ist auch mühsam, doch man braucht immer eine Challenge, um zu lernen, sonst gäbe es kein Grund schwieriges zu lösen!\
 Ich habe festgestellt, dass GitHub manchmal Schwierigkeiten hat etwas hochzuladen...
 Das muss ich mit Herr Hofer anschauen.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[datenstruktur]]></title>
+            <link>https://mcdelarosa.github.io/EF-Informatik/2022/11/29/numtrip/datenstruktur</link>
+            <guid>/2022/11/29/numtrip/datenstruktur</guid>
+            <pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[img1.png]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q">
+<img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q"></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Wiedereinstieg in Python]]></title>
