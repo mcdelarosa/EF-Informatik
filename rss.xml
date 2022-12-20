@@ -4,10 +4,22 @@
         <title>Lern Blog Blog</title>
         <link>https://mcdelarosa.github.io/EF-Informatik/</link>
         <description>Lern Blog Blog</description>
-        <lastBuildDate>Fri, 02 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[blog]]></title>
+            <link>https://mcdelarosa.github.io/EF-Informatik/2022/12/20/blog</link>
+            <guid>/2022/12/20/blog</guid>
+            <pubDate>Tue, 20 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nicht viel...]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nicht-viel">Nicht viel...<a class="hash-link" href="#nicht-viel" title="Direkter Link zur Überschrift">​</a></h2><p>Nachdem ich das Schwierigste von Numtrip erledigt hatte, bleibte mir nicht viel zu tun...
+Auch weil ich nicht wusste was wir noch einfügen müssen und einfügen können. \
+Meine Idee ist noch eine Rekordpunktzahl hinzu zu fügen und vielleicht noch Grafiken zu verwenden, denn wenn die Zahl zu gross ist sieht das Spiel unschön. \
+Was man auch noch tun könnte ist, dass man seinen Namen eingeben könnte und sein Höchstpunktstand würde man auch sehen können oder so etwas. \
+JSON ist mir neu und noch ein wenig unklar, aber das werde ich im Laufe der Zeit lernen.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[blog]]></title>
             <link>https://mcdelarosa.github.io/EF-Informatik/2022/12/02/blog</link>
