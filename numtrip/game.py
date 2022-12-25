@@ -22,7 +22,7 @@ class Numtrip:
     def __init__(self):
 
         self.DEBUG = False
-        self.board = [
+        self.patern_board = [
             [2, 4, 1, 8, 8],
             [4, 2, 8, 2, 1],
             [4, 4, 4, 4, 2],
@@ -31,6 +31,10 @@ class Numtrip:
         ]
 
         self.actual_board = self.builder()
+        self.selected_value = -9999
+        self.play = True
+        self.turns = 0
+        self.limit = 256
 
     def ask_input(self):
 
@@ -38,15 +42,25 @@ class Numtrip:
             x, y = input("input your coordinate with spaces (<Letter> <Number>): ").upper().split()
             self.x = Numtrip.axis_x.index(x)
             self.y = Numtrip.axis_y.index(y)
-            self.number = self.actual_board[self.y][self.x]
-            self.fill4(self.number, self.x, self.y, True)
-            self.gravitation()
+            self.selected_value = self.getValue(self.y, self.x)
+            if self.selected_value is None:
+                print("..out of range")
+            else:
+                self.turns = self.turns + 1
+                self.fill4(self.y, self.x, True)
+                self.gravitation()
             return True
         except:
             self.x = -1
             self.y = -1
-
             return False
+
+    def getValue(self, y, x):
+        if len(self.actual_board) <= y:
+            return None
+        if len(self.actual_board[y]) <= x:
+            return None
+        return self.actual_board[y][x]
 
     def printTable(self):
 
@@ -67,25 +81,43 @@ class Numtrip:
 
             print('')
 
-    def fill4(self, locationValue, x, y, choosenNumber):
+    def fill4(self, y, x,  choosenNumber):
 
-        if len(self.actual_board) <= y:
-            return
-        if len(self.actual_board[y]) <= x:
-            return
-
-        position_value = self.actual_board[y][x]
-        if locationValue == position_value:
+        if self.getValue(y, x) == self.selected_value:
             if choosenNumber:
-                self.actual_board[y][x] = self.actual_board[y][x]*2
-                self.logger(f' y:{y} x:{x}')
+                if self.selected_value < self.limit  and self.check(y, x, self.selected_value):
+                    self.logger(f' y:{y} x:{x}')
+                    self.actual_board[y][x] = self.actual_board[y][x]*2
+                elif self.selected_value >= self.limit:
+                    self.play = False
+                    score = 5002 - self.turns*2
+                    print(f'You won! Your tries: {self.turns} and your score : {score}')
+                else:
+                    print('The number could not be duplicated')
+                    self.play = False
+                    print('You loose')
+
             else:
                 self.actual_board[y][x] = -1
 
-            self.fill4(locationValue, x, y + 1, False)  # unten
-            self.fill4(locationValue, x, y - 1, False)  # oben
-            self.fill4(locationValue, x + 1, y, False)  # rechts
-            self.fill4(locationValue, x - 1, y, False)  # links
+            self.fill4(y + 1, x, False)  # unten
+            self.fill4(y - 1, x, False)  # oben
+            self.fill4(y, x + 1, False)  # rechts
+            self.fill4(y, x - 1, False)  # links
+    def check(self, y, x, searched_value):
+        # print('searched ' + str(searched_value))
+        v_pos_n = self.getValue(y - 1, x)
+        v_pos_s = self.getValue(y + 1, x)
+        v_pos_e = self.getValue(y, x + 1)
+        v_pos_o = self.getValue(y, x - 1)
+
+        if (searched_value == v_pos_o
+            or searched_value == v_pos_e
+            or searched_value == v_pos_n
+            or searched_value == v_pos_s):
+                return True
+        else:
+            return False
 
     def gravitation(self):
         bottom = len(self.actual_board)
@@ -102,7 +134,6 @@ class Numtrip:
                     self.actual_board[y][x] = 2**random.randint(0, 3)
 
     def getFirstUpNumber(self, pos_y, pos_x):
-        # print(f" ... ... y = {pos_y} , x= {pos_x}")
         for y in reversed(range(pos_y)):
             value = self.actual_board[y][pos_x]
             self.logger(f" ... ... ... {value}")
@@ -110,7 +141,7 @@ class Numtrip:
                 return {"y": y, "value": value }
         return None
     def builder(self):
-        newBoard = self.board
+        newBoard = self.patern_board
         for y in range(len(self.axis_y)):
             for x in range(len(self.axis_x)):
                 newBoard[x][y]= 2**random.randint(0, 3)
@@ -124,8 +155,7 @@ game = Numtrip()
 game.DEBUG = False
 
 
-while True:
+while game.play:
     game.printTable()
-    while not game.ask_input():
+    if not game.ask_input():
         print(" wrong coordinates ...")
-
