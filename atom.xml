@@ -45,12 +45,12 @@ Eine wichtige Änderung war die Tabelle des Numtrips, da habe ich versucht die S
 die Tabelle nicht proportional machten. Jetzt wird alles mit verschiedenen Farben angezeigt anstatt dieser Versuch einer Tabelle</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[blog]]></title>
-        <id>/2022/11/29/blog</id>
-        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/29/blog"/>
+        <title type="html"><![CDATA[Ein Auf und Ab!]]></title>
+        <id>/2022/11/29/ein-auf-und-ab</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/29/ein-auf-und-ab"/>
         <updated>2022-11-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ein Auf und Ab!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-auf-und-ab">Ein Auf und Ab!<a class="hash-link" href="#ein-auf-und-ab" title="Direkter Link zur Überschrift">​</a></h2><p>Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.
+        <summary type="html"><![CDATA[Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.]]></summary>
+        <content type="html"><![CDATA[<p>Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.
 Alles nur weil ich <code>.split()</code> nicht verstanden hatte. Jetzt ist mir alles klargeworden. \
 Das Numtrip ist auch mühsam, doch man braucht immer eine Challenge, um zu lernen, sonst gäbe es kein Grund schwieriges zu lösen!\
 Ich habe festgestellt, dass GitHub manchmal Schwierigkeiten hat etwas hochzuladen...
