@@ -8,24 +8,24 @@
     <subtitle>Lern Blog Blog</subtitle>
     <icon>https://mcdelarosa.github.io/EF-Informatik/img/Donut_1.png</icon>
     <entry>
-        <title type="html"><![CDATA[blog]]></title>
-        <id>/2022/12/20/blog</id>
-        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/12/20/blog"/>
+        <title type="html"><![CDATA[Nicht-viel]]></title>
+        <id>/2022/12/20/Nicht-viel</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/12/20/Nicht-viel"/>
         <updated>2022-12-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nicht viel...]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nicht-viel">Nicht viel...<a class="hash-link" href="#nicht-viel" title="Direkter Link zur Überschrift">​</a></h2><p>Nachdem ich das Schwierigste von Numtrip erledigt hatte, bleibte mir nicht viel zu tun...
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nicht-viel">#Nicht viel...<a class="hash-link" href="#nicht-viel" title="Direkter Link zur Überschrift">​</a></h2><p>Nachdem ich das Schwierigste von Numtrip erledigt hatte, bleibte mir nicht viel zu tun...
 Auch weil ich nicht wusste was wir noch einfügen müssen und einfügen können. \
 Meine Idee ist noch eine Rekordpunktzahl hinzu zu fügen und vielleicht noch Grafiken zu verwenden, denn wenn die Zahl zu gross ist sieht das Spiel unschön. \
 Was man auch noch tun könnte ist, dass man seinen Namen eingeben könnte und sein Höchstpunktstand würde man auch sehen können oder so etwas. \
 JSON ist mir neu und noch ein wenig unklar, aber das werde ich im Laufe der Zeit lernen.</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[blog]]></title>
-        <id>/2022/12/02/blog</id>
-        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/12/02/blog"/>
+        <title type="html"><![CDATA[Ein-einwandfreier-Tag]]></title>
+        <id>/2022/12/02/Ein-einwandfreier-Tag</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/12/02/Ein-einwandfreier-Tag"/>
         <updated>2022-12-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ein einwandfreier Tag]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-einwandfreier-tag">Ein einwandfreier Tag<a class="hash-link" href="#ein-einwandfreier-tag" title="Direkter Link zur Überschrift">​</a></h2><p>Am heutigen Tag war Herr Hofer krank, deshalb waren wir allein im Klassenzimmer. \
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-einwandfreier-tag">#Ein einwandfreier Tag<a class="hash-link" href="#ein-einwandfreier-tag" title="Direkter Link zur Überschrift">​</a></h2><p>Am heutigen Tag war Herr Hofer krank, deshalb waren wir allein im Klassenzimmer. \
 Man könnte fast sagen, dass wir allein waren, da die Meisten keine Schule am Nachmittag hatten. \
 Unsere Aufträge waren im Grunde wenig und kurz, doch das war nicht der Fall.
 Zeit habe ich verbracht um erst nur eine Aufgabe zu verstehen und noch weiter damit ich das Programm zum Laufen bringe...\
@@ -33,12 +33,12 @@ Habe noch Glück gehabt, dass ich damit fertig bin, sonst würde ich irrewerden!
 Ein weiterer Problem ist immernoch das Hochladen der Dokumente auf GitHub...</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[blog]]></title>
-        <id>/2022/11/30/blog</id>
-        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/30/blog"/>
+        <title type="html"><![CDATA[Stolze-Arbeit]]></title>
+        <id>/2022/11/30/Stolze-Arbeit</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/30/Stolze-Arbeit"/>
         <updated>2022-11-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Stolze Arbeit]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stolze-arbeit">Stolze Arbeit<a class="hash-link" href="#stolze-arbeit" title="Direkter Link zur Überschrift">​</a></h2><p>Mit Hilfe, weil ich für lange stecken blieb, habe ich es geschafft das Numtrip endlich laufen zu bringen.\
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stolze-arbeit">#Stolze Arbeit<a class="hash-link" href="#stolze-arbeit" title="Direkter Link zur Überschrift">​</a></h2><p>Mit Hilfe, weil ich für lange stecken blieb, habe ich es geschafft das Numtrip endlich laufen zu bringen.\
 Vieles war unnötig und konnte verkürzt/vereinfacht werden, was ich auch tat.\
 Als alles unnötige ersetzt wurde, war mein Code sowohl kürzer als auch verständlicher geworden und das hatte mir auch erleichtert.\
 Eine wichtige Änderung war die Tabelle des Numtrips, da habe ich versucht die Symbolen zu löschen, da diese
