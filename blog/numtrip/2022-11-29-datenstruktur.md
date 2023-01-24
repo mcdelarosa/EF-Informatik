@@ -16,4 +16,4 @@ Einleitung:
 3. Getipptes einzelnes Feld:
    - Man soll dieses Feld überprüfen und nach gleichen Werte suchen (die in der Nähe stehen).
 
-Der Rest wurde vernachlässigt, weil das für uns an dieser Zeit unwichtig.
+Der Rest wurde vernachlässigt, weil das für uns zu dieser Zeit unwichtig.
