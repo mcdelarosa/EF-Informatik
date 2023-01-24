@@ -78,13 +78,13 @@ Ich habe festgestellt, dass GitHub manchmal Schwierigkeiten hat etwas hochzulade
 Das muss ich mit Herr Hofer anschauen.</p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[datenstruktur]]></title>
-        <id>/2022/11/29/numtrip/datenstruktur</id>
-        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/29/numtrip/datenstruktur"/>
+        <title type="html"><![CDATA[datenstrukturen]]></title>
+        <id>/2022/11/29/numtrip/datenstrukturen</id>
+        <link href="https://mcdelarosa.github.io/EF-Informatik/2022/11/29/numtrip/datenstrukturen"/>
         <updated>2022-11-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[img1.png]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q">
-<img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q"></p>]]></content>
+        <summary type="html"><![CDATA[Das waren meine Entwürfe (auch mit Kollegen) des Numtrips, um eine Idee zu haben was gerade gemacht wurde oder noch zu tun ist.]]></summary>
+        <content type="html"><![CDATA[<p>Das waren meine Entwürfe (auch mit Kollegen) des Numtrips, um eine Idee zu haben was gerade gemacht wurde oder noch zu tun ist.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="unser-allererster-entwurf">Unser allererster Entwurf:<a class="hash-link" href="#unser-allererster-entwurf" title="Direkter Link zur Überschrift">​</a></h3><p><img loading="lazy" alt="img_1.png" src="/EF-Informatik/assets/images/img_1-a660aac511f8cfd781200a478d1729cf.png" width="964" height="1280" class="img_ev3q"></p><ul><li>wir wollten nur herausfinden (überlegen) wie das Numtrip aussehen sollte<ul><li>Mit Zahlen sollte dies arbeiten</li><li>Felder die Zahlen enthalten</li><li>Könnte man als 2D-Matrix darstellen (was wiederum aus Listen besteht)</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="unser-letzter-entwurf">Unser letzter Entwurf:<a class="hash-link" href="#unser-letzter-entwurf" title="Direkter Link zur Überschrift">​</a></h3><p><img loading="lazy" alt="Numtrip1.jpeg" src="/EF-Informatik/assets/images/Numtrip1-2d5b849f7fdbc60153bcbf2def1cca1b.jpeg" width="4032" height="3024" class="img_ev3q">
+Einleitung:</p><ol><li>Das Programm soll das Numtrip Spiel erstellen</li><li>Spielfeld und Eingabe:<ul><li>Spielfeld soll erstellt und gezeichnet werden</li><li>Der Spieler sollte Koordinaten (ein Feld) auswählen können.</li></ul></li><li>Getipptes einzelnes Feld:<ul><li>Man soll dieses Feld überprüfen und nach gleichen Werte suchen (die in der Nähe stehen).</li></ul></li></ol><p>Der Rest wurde vernachlässigt, weil das für uns an dieser Zeit unwichtig.</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wiedereinstieg-in-Python]]></title>
