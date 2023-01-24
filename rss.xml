@@ -4,17 +4,38 @@
         <title>Lern Blog Blog</title>
         <link>https://mcdelarosa.github.io/EF-Informatik/</link>
         <description>Lern Blog Blog</description>
-        <lastBuildDate>Tue, 20 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[Numtrip_Abgabe]]></title>
+            <link>https://mcdelarosa.github.io/EF-Informatik/2023/01/24/Numtrip_Abgabe</link>
+            <guid>/2023/01/24/Numtrip_Abgabe</guid>
+            <pubDate>Tue, 24 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Numtrip Abgabe]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="numtrip-abgabe">Numtrip Abgabe<a class="hash-link" href="#numtrip-abgabe" title="Direkter Link zur Überschrift">​</a></h2><hr><p>Heute ist die Abgabe vom Numtrip. Und ich, ich habe alles programmiert, was gebraucht wird, um dann das Spiel spielbar zu machen.
+Ich möchte noch meine Erkenntnisse und eine Zusammenfassung des Numtrips verfassen, bevor ich alles abgebe. Auch damit die Person, die Numtrip programmieren möchte eine Idee hat, welche Probleme auftretten können und was diese Person besser als ich tun könnte, dennoch welche Nach- und Vorteile das einem bringt.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="meine-erkenntnisse">Meine Erkenntnisse<a class="hash-link" href="#meine-erkenntnisse" title="Direkter Link zur Überschrift">​</a></h3><p>Python hatten wir in der Schule schon gehabt, jedoch mit einer Bibliothek (Tigerjyton).
+Diese war einfach zu steuern und war gut für Anfänger, welche noch nie programmiert haben. Doch für jemanden, der sich in der Informatik vertiefen will ist das ein Nichts-Nutz... \
+Man muss Neues dazu lernen, wenn man <strong>ECHTES</strong> Python macht, wzB. die Schleifen, es gibt keine Grafiken, Python ist keine "Zeichnungsprache", usw. \
+Für mich war das wort wörtlich vergeudete Zeit mit Tigerjyton... Ich lernte etwas, was für meine Karriere keine Auswirkungen haben würde. \
+Deshalb war es auch schwieriger für mich in Python einzusteigen, obschon ich auf JavaScript programmieren konnte.\
+Numtrip, ein vom Augen her simples Spiel, war das eine relevante Übung, das mir ermöglicht hat Python und das Programmieren besser zu beherrschen, und zwar nicht wenig (trotzdem bin ich noch kein Meister).\
+Das war eine profitable Aufgabe, welche ich jeden empfehlen kann, es ist nicht leicht, doch das lohnt sich wenn man Anfänger ist (wird aufwändiger sein, aber gleichzeitig hilfreich sein) und schon mit Pyhton oder anderen Sprachen programmiert hat (für Fortgeschrittene eher nicht). \
+Bei mir hat es an Zeit vollkommend gereicht das Spiel zu enden, trotz der vielen Schwierigkeiten, die auftratten.\
+Nachteile gibt es für mich keine.
+Was mein Blogleser besser tun könnte als ich, ist sich die Zeit nehmen alles korrekt zu verstehen und wenn das einem unverständlich ist, Beispiele  und/oder Definitionen irgendwo aufschreiben, wo er das wieder hervornehmen kann, falls Fragen auftauchen.\</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="zusammenfassung">Zusammenfassung<a class="hash-link" href="#zusammenfassung" title="Direkter Link zur Überschrift">​</a></h3><p>Man soll lieber Programmiersprachen ohne Bibliotheken lernen, vorallem wenn diese nicht im Geschäftlichen genutzt wird, erstens.\
+Zweitens, Numtrip ist sehr lehrreich, doch ist aufwändig.
+Und als Letztes sich alles zu notieren, was für einem neu gewesen ist, diese dann brauchen und Beispiele machen. \
+Vielen Dank, falls du bis dahin gelesen hast! Wünsche dir viel Erfolg beim Programmieren!</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Nicht-viel]]></title>
             <link>https://mcdelarosa.github.io/EF-Informatik/2022/12/20/Nicht-viel</link>
             <guid>/2022/12/20/Nicht-viel</guid>
             <pubDate>Tue, 20 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Nicht viel...]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nicht-viel">Nicht viel...<a class="hash-link" href="#nicht-viel" title="Direkter Link zur Überschrift">​</a></h2><p>Nachdem ich das Schwierigste von Numtrip erledigt hatte, bleibte mir nicht viel zu tun...
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nicht-viel">Nicht viel...<a class="hash-link" href="#nicht-viel" title="Direkter Link zur Überschrift">​</a></h2><hr><p>Nachdem ich das Schwierigste von Numtrip erledigt hatte, bleibte mir nicht viel zu tun...
 Auch weil ich nicht wusste was wir noch einfügen müssen und einfügen können. \
 Meine Idee ist noch eine Rekordpunktzahl hinzu zu fügen und vielleicht noch Grafiken zu verwenden, denn wenn die Zahl zu gross ist sieht das Spiel unschön. \
 Was man auch noch tun könnte ist, dass man seinen Namen eingeben könnte und sein Höchstpunktstand würde man auch sehen können oder so etwas. \
@@ -26,7 +47,7 @@ JSON ist mir neu und noch ein wenig unklar, aber das werde ich im Laufe der Zeit
             <guid>/2022/12/02/Ein-einwandfreier-Tag</guid>
             <pubDate>Fri, 02 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Ein einwandfreier Tag]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-einwandfreier-tag">Ein einwandfreier Tag<a class="hash-link" href="#ein-einwandfreier-tag" title="Direkter Link zur Überschrift">​</a></h2><p>Am heutigen Tag war Herr Hofer krank, deshalb waren wir allein im Klassenzimmer. \
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ein-einwandfreier-tag">Ein einwandfreier Tag<a class="hash-link" href="#ein-einwandfreier-tag" title="Direkter Link zur Überschrift">​</a></h2><hr><p>Am heutigen Tag war Herr Hofer krank, deshalb waren wir allein im Klassenzimmer. \
 Man könnte fast sagen, dass wir allein waren, da die Meisten keine Schule am Nachmittag hatten. \
 Unsere Aufträge waren im Grunde wenig und kurz, doch das war nicht der Fall.
 Zeit habe ich verbracht um erst nur eine Aufgabe zu verstehen und noch weiter damit ich das Programm zum Laufen bringe...\
@@ -39,9 +60,9 @@ Ein weiterer Problem ist immernoch das Hochladen der Dokumente auf GitHub...</p>
             <guid>/2022/11/30/Stolze-Arbeit</guid>
             <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Stolze Arbeit]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stolze-arbeit">Stolze Arbeit<a class="hash-link" href="#stolze-arbeit" title="Direkter Link zur Überschrift">​</a></h2><p>Mit Hilfe, weil ich für lange stecken blieb, habe ich es geschafft das Numtrip endlich laufen zu bringen.\
-Vieles war unnötig und konnte verkürzt/vereinfacht werden, was ich auch tat.\
-Als alles unnötige ersetzt wurde, war mein Code sowohl kürzer als auch verständlicher geworden und das hatte mir auch erleichtert.\
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stolze-arbeit">Stolze Arbeit<a class="hash-link" href="#stolze-arbeit" title="Direkter Link zur Überschrift">​</a></h2><hr><p>Mit Hilfe, weil ich für lange stecken blieb, habe ich es geschafft das Numtrip endlich laufen zu bringen.
+Vieles war unnötig und konnte verkürzt/vereinfacht werden, was ich auch tat.
+Als alles unnötige ersetzt wurde, war mein Code sowohl kürzer als auch verständlicher geworden und das hatte mir auch erleichtert.
 Eine wichtige Änderung war die Tabelle des Numtrips, da habe ich versucht die Symbolen zu löschen, da diese
 die Tabelle nicht proportional machten. Jetzt wird alles mit verschiedenen Farben angezeigt anstatt dieser Versuch einer Tabelle</p>]]></content:encoded>
         </item>
@@ -50,8 +71,8 @@ die Tabelle nicht proportional machten. Jetzt wird alles mit verschiedenen Farbe
             <link>https://mcdelarosa.github.io/EF-Informatik/2022/11/29/ein-auf-und-ab</link>
             <guid>/2022/11/29/ein-auf-und-ab</guid>
             <pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.]]></description>
-            <content:encoded><![CDATA[<p>Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.
+            <description><![CDATA[*]]></description>
+            <content:encoded><![CDATA[<hr><p>Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.
 Alles nur weil ich <code>.split()</code> nicht verstanden hatte. Jetzt ist mir alles klargeworden. \
 Das Numtrip ist auch mühsam, doch man braucht immer eine Challenge, um zu lernen, sonst gäbe es kein Grund schwieriges zu lösen!\
 Ich habe festgestellt, dass GitHub manchmal Schwierigkeiten hat etwas hochzuladen...
@@ -71,8 +92,8 @@ Das muss ich mit Herr Hofer anschauen.</p>]]></content:encoded>
             <link>https://mcdelarosa.github.io/EF-Informatik/2022/08/26/Wiedereinstieg-in-Python</link>
             <guid>/2022/08/26/Wiedereinstieg-in-Python</guid>
             <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Das heutige Thema war Python/Tigerjython was mir nicht wirklich gefällt, da das nur eine Bibliothek,]]></description>
-            <content:encoded><![CDATA[<p>Das heutige Thema war Python/Tigerjython was mir nicht wirklich gefällt, da das nur eine Bibliothek,
+            <description><![CDATA[*]]></description>
+            <content:encoded><![CDATA[<hr><p>Das heutige Thema war Python/Tigerjython was mir nicht wirklich gefällt, da das nur eine Bibliothek,
 die keiner im Alltag braucht und nutzlos ist.</p><h1>Tigerjython ist doof</h1><p>Nichtsdestotrotz habe ich einen, in meinen Augen, super Code programmiert, und zwar das ZickZack Programm
 im ersten Kapitel:</p><div class="language-py codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-py codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> turtle </span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">color </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"red"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"orange"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"lime"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pensize </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">5</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">right</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">60</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">for</span><span class="token plain"> x </span><span class="token keyword" style="color:#00009f">in</span><span class="token plain"> color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    left</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">120</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    pencolor</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">x</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    forward</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">20</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    right</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">120</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    forward</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">20</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="In die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Hat eine grössere Aufwendung gebraucht, doch es hat sich gelohnt.</p>]]></content:encoded>
         </item>
