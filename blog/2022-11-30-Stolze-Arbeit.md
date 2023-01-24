@@ -1,5 +1,3 @@
-Stolze Arbeit
----
 ***
 Mit Hilfe, weil ich für lange stecken blieb, habe ich es geschafft das Numtrip endlich laufen zu bringen.
 Vieles war unnötig und konnte verkürzt/vereinfacht werden, was ich auch tat.

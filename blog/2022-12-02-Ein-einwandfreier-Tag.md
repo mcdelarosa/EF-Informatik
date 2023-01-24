@@ -1,5 +1,3 @@
-Ein einwandfreier Tag
----
 ***
 Am heutigen Tag war Herr Hofer krank, deshalb waren wir allein im Klassenzimmer. \
 Man könnte fast sagen, dass wir allein waren, da die Meisten keine Schule am Nachmittag hatten. \

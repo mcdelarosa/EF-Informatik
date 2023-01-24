@@ -1,5 +1,3 @@
-Numtrip Abgabe
----
 ***
 Heute ist die Abgabe vom Numtrip. Und ich, ich habe alles programmiert, was gebraucht wird, um dann das Spiel spielbar zu machen. 
 Ich möchte noch meine Erkenntnisse und eine Zusammenfassung des Numtrips verfassen, bevor ich alles abgebe. Auch damit die Person, die Numtrip programmieren möchte eine Idee hat, welche Probleme auftretten können und was diese Person besser als ich tun könnte, dennoch welche Nach- und Vorteile das einem bringt.

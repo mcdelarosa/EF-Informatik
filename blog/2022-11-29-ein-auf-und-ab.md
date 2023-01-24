@@ -1,4 +1,3 @@
-# Ein Auf und Ab!
 ***
 Wegen letzter Woche war ich "frustriert", da ich zu wenig erledigt hatte. Es hat sich festgestellt, dass ich etwas nicht verstanden hatte, aber dies schien mir nicht so, als ich das "gelernt" hatte.
 Alles nur weil ich `.split()` nicht verstanden hatte. Jetzt ist mir alles klargeworden. \
