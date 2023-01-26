@@ -38,6 +38,20 @@ Numtrip, ein vom Augen her simples Spiel, war das eine relevante Übung, das mir
 Das war eine profitable Aufgabe, welche ich jeden empfehlen kann, es ist nicht leicht, doch das lohnt sich wenn man Anfänger ist (wird aufwändiger sein, aber gleichzeitig hilfreich sein) und schon mit Pyhton oder anderen Sprachen programmiert hat (für Fortgeschrittene eher nicht).\
 Bei mir hat es an Zeit vollkommend gereicht das Spiel zu enden, trotz der vielen Schwierigkeiten, die auftratten.\
 Nachteile gibt es für mich keine.
+
+### Meine grösste Herausforderung
+Sie war an einem Freitag Nachmittag da. Diese wartete ewig auf mich.\
+Die Herausforderung hiess: **Floodfill**
+Zur Beginn wusste ich überhaupt nicht wie ich denn eigeintlich anfangen sollte.\ 
+Doch am selben Tag war Herr Hofer, da er krank war. Das hiess nichts Gutes für mich.\
+Ich musste gegen ein Ungeheuer von Level 100 besiegen, ich, der ein Schwert aus Holz hatte und es erst ans Level 3 geschafft hatte.\
+Fast ein Jahr (nein, in Wirklichkeit drei Tage) musste ich daran arbeiten, den teufelischen **Floodfill** zu implementieren.\
+Ich gab mehrmals auf bis ich das endlich verstand, ich verstand was Herr Hofer mit diesem miesen Monster wollte.\
+Da konnte mir keiner aufhalten, bis ich das fiese Ding mit meiner Klinge den Kopf abschnied.\
+Als ich damit fertig war, stieg ich auf Level 15, das war ganz schön viel, 5 mal soviele Levels, ich konnte es kaum glauben.
+> ![monster.jpg](monster.jpg)
+ 
+
 ### Tipps
 Was mein Blogleser besser tun könnte als ich, ist **sich die Zeit** nehmen alles korrekt zu **verstehen** und wenn das einem unverständlich ist, Beispiele  und/oder Definitionen irgendwo **aufschreiben**, wo er das wieder hervornehmen kann, falls Fragen auftauchen.
 
