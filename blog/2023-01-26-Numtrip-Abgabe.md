@@ -2,18 +2,27 @@
 Heute ist die Abgabe vom Numtrip. Und ich, ich habe alles programmiert, was gebraucht wird, um dann das Spiel spielbar zu machen.\
 Ich möchte noch meine Erkenntnisse und eine Zusammenfassung des Numtrips verfassen, bevor ich alles abgebe. Auch damit die Person, die Numtrip programmieren möchte eine Idee hat, welche Probleme auftretten können und was diese Person besser als ich tun könnte, dennoch welche Nach- und Vorteile das einem bringt. 
 ### Ziel des Spiels
-Das Ziel des Spiels ist die **grösste Zahl** zu kriegen (in meinem Programm über 256 bzw. 512) mit den möglichst **wenigen Spielzügen**. \
+Das Ziel des Spiels ist die **grösste Zahl** zu kriegen (in meinem Programm über 256 bzw. 512) mit den möglichst **wenigen Spielzügen**.\
 Man darf **kein Wert** wählen, das **nicht in der Nachbarszellen** steht (siehe das erste Bild) sonst verliert man!
 
 > ![NumtripBsp.png](NumtripBsp.png)
 >
 > Die **blau**-eingekreiste Zahl: **ausgewählte Zahl**
 > 
-> Die **gelb**-eingekreisten Zahlen: **Nachbarszahlen**\
+> Die **gelb**-eingekreisten Zahlen: **Nachbarszahlen**
 
 ### Top Down Entwurf
 Top Down Entwurf von Numtrip (bitte nicht kritisieren! Weder hatte ich Zeit noch die richtigen Werkzeuge...).
 > ![Numtrip-Top-Down-Entwuf.png](Numtrip-Top-Down-Entwuf.png)
+
+### Gewichtskraft des Spiels
+Ich werde folgendes Algorithmus erklären:
+> ![gravitation.png](gravitation.png)
+>- Damit fallen die Werte, falls die unteren Felder leer sind.
+>  - Die Werte werden von **unten** nach **oben** geprüft
+>    - Falls man einen Wert **gefunden** hat (das sucht `getFirstUpNumber()`) wird dieses Feld durch eine **-1 ersetzt** und geht zum untersten Feld **ohne** Wert
+>  - Danach werden alle Felder mit -1 **ersetzt**, durch eine Zahl mit der **Basis 2**
+>  - Zuletzt wiederholt man dies aber auf der **nächsten Spalte**
 
 ### Voraussetzung
 - Python-Version: **Python 3.x** und probiert mit Python 3.10.6
