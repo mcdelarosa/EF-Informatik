@@ -7,7 +7,7 @@ Das waren meine Entwürfe (auch mit Kollegen) des Numtrips, um eine Idee zu habe
   - Könnte man als 2D-Matrix darstellen (was wiederum aus Listen besteht)
 
 ### Unser letzter Entwurf:
-![Numtrip1.jpeg](Numtrip1.jpeg)
+![Numtrip1.jpeg](blog/numtrip/Numtrip1.jpeg)
 Einleitung:
 1. Das Programm soll das Numtrip Spiel erstellen
 2. Spielfeld und Eingabe:
