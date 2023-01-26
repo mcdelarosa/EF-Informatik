@@ -1,5 +1,8 @@
 import math
 import random
+import os
+
+os.system("")
 class MyColors:
     RED = "\033[0;31m"
     GREEN = "\033[0;32m"
@@ -37,9 +40,14 @@ class Numtrip:
         self.limit = 256
 
     def ask_input(self):
-
+        print(MyColors.WHITE)
         try:
-            x, y = input("input your coordinate with spaces (<Letter> <Number>): ").upper().split()
+            x, y = input("input your coordinate with spaces (<Letter> <Number>), type '0 0' to finish: ").upper().split()
+
+            if x == '0' and y == '0':
+                game.play = False
+                return True
+
             self.x = Numtrip.axis_x.index(x)
             self.y = Numtrip.axis_y.index(y)
             self.selected_value = self.getValue(self.y, self.x)
@@ -158,4 +166,4 @@ game.DEBUG = False
 while game.play:
     game.printTable()
     if not game.ask_input():
-        print(" wrong coordinates ...")
+        print(MyColors.RED + " wrong coordinates ...")
