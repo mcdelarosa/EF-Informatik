@@ -5,14 +5,14 @@ Ich möchte noch meine Erkenntnisse und eine Zusammenfassung des Numtrips verfas
 Das Ziel des Spiels ist die **grösste Zahl** zu kriegen (in meinem Programm über 256 bzw. 512) mit den möglichst **wenigen Spielzügen**. \
 Man darf **kein Wert** wählen, das **nicht in der Nachbarszellen** steht (siehe das erste Bild) sonst verliert man!
 
-> <img src="NumtripBsp.png"/>
+> ![NumtripBsp.png](NumtripBsp.png)
 >
 > Die **blau**-eingekreiste Zahl: **ausgewählte Zahl**
 > 
 > Die **gelb**-eingekreisten Zahlen: **Nachbarszahlen**
 ### Top Down Entwurf
 Top Down Entwurf von Numtrip (bitte nicht kritisieren! Weder hatte ich Zeit noch die richtigen Werkzeuge...).
-> <img src="Numtrip-Top-Down-Entwuf.png"/>
+> ![Numtrip-Top-Down-Entwuf.png](Numtrip-Top-Down-Entwuf.png)
 
 ### Voraussetzung
 - Python-Version: **Python 3.x** und probiert mit Python 3.10.6
