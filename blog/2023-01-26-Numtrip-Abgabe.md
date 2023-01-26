@@ -28,7 +28,6 @@ Ich werde folgender Algorithmus erklären:
 - Python-Version: **Python 3.x** und probiert mit Python 3.10.6
 - Ein Computer ;P
 
-
 ### Meine Erkenntnisse
 Python hatten wir in der Schule schon gehabt, jedoch mit einer Bibliothek (Tigerjyton).
 Diese war einfach zu steuern und war gut für Anfänger, welche noch nie programmiert haben. Doch für jemanden, der sich in der Informatik vertiefen will ist das ein Nichts-Nutz...\
