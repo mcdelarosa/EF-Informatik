@@ -9,7 +9,8 @@ Man darf **kein Wert** wählen, das **nicht in der Nachbarszellen** steht (siehe
 >
 > Die **blau**-eingekreiste Zahl: **ausgewählte Zahl**
 > 
-> Die **gelb**-eingekreisten Zahlen: **Nachbarszahlen**
+> Die **gelb**-eingekreisten Zahlen: **Nachbarszahlen**\
+
 ### Top Down Entwurf
 Top Down Entwurf von Numtrip (bitte nicht kritisieren! Weder hatte ich Zeit noch die richtigen Werkzeuge...).
 > ![Numtrip-Top-Down-Entwuf.png](Numtrip-Top-Down-Entwuf.png)
