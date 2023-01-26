@@ -12,7 +12,7 @@ Man darf **kein Wert** wählen, das **nicht in der Nachbarszellen** steht (siehe
 > Die **gelb**-eingekreisten Zahlen: **Nachbarszahlen**
 ### Top Down Entwurf
 Top Down Entwurf von Numtrip (bitte nicht kritisieren! Weder hatte ich Zeit noch die richtigen Werkzeuge...).
-> <img src="/blog/Numtrip-Top-Down-Entwuf.png"/>
+> <img src="Numtrip-Top-Down-Entwuf.png"/>
 
 
 ### Voraussetzung
