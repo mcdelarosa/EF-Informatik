@@ -18,7 +18,7 @@ installation()
 
 '''This code was just made for fun it doesn't actually work...'''
 ```
-\
+
 
 If you want to download the numtrip game just install the whole numtrip file and run it with python via IDEs (VS Code, Intellij IDEA, etc.)
 This is a demo from numtrip:

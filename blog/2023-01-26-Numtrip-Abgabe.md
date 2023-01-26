@@ -14,7 +14,6 @@ Man darf **kein Wert** wählen, das **nicht in der Nachbarszellen** steht (siehe
 Top Down Entwurf von Numtrip (bitte nicht kritisieren! Weder hatte ich Zeit noch die richtigen Werkzeuge...).
 > <img src="Numtrip-Top-Down-Entwuf.png"/>
 
-
 ### Voraussetzung
 - Python-Version: **Python 3.x** und probiert mit Python 3.10.6
 - Ein Computer ;P
