@@ -16,7 +16,7 @@ Top Down Entwurf von Numtrip (bitte nicht kritisieren! Weder hatte ich Zeit noch
 > ![Numtrip-Top-Down-Entwuf.png](Numtrip-Top-Down-Entwuf.png)
 
 ### Gewichtskraft des Spiels
-Ich werde folgendes Algorithmus erklären:
+Ich werde folgender Algorithmus erklären:
 > ![gravitation.png](gravitation.png)
 >- Damit fallen die Werte, falls die unteren Felder leer sind.
 >  - Die Werte werden von **unten** nach **oben** geprüft
