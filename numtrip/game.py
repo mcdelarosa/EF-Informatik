@@ -72,10 +72,9 @@ class Numtrip:
 
     def printTable(self):
 
+#Enumerates the colors which means the colors have an order
         for idx, header in enumerate([MyColors.DARK_GRAY + ' '] + Numtrip.axis_x):
             print(' ' + header, end='')
-
-        print()
 
         for idx, _axis_y in enumerate(self.actual_board):
             print(MyColors.RED + ' ' + Numtrip.axis_y[idx], end='') # first column, reference board
@@ -88,7 +87,7 @@ class Numtrip:
                     print(self.colors[base2] + ' ' + str(_axis_x), end='')
 
             print('')
-
+    #x and y are on the opposite place because of the matrix
     def fill4(self, y, x,  choosenNumber):
 
         if self.getValue(y, x) == self.selected_value:
