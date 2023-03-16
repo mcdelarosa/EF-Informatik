@@ -5,7 +5,7 @@ Anleitung:
  **Vorkenntnissen von API gebraucht!!!!**  
 So sollten alle, die gebrauchten Kästchen, aussehen (Verbindungen noch gebraucht und ganz normale Debug-Kästchen):
 ![img.png](img.png)
-http in zu GET-Methode ändern (um Neues hinzufügen zu können) und diese URL einfügen `/api/to-emoji-lang`.
+'http in' zu GET-Methode ändern (um Neues hinzufügen zu können) und diese URL einfügen `/api/to-emoji-lang`.
 ![img_1.png](img_1.png)
 Was **nicht** zu ändern **genannt** wurde, ist auch **nicht** zu **ändern** gebraucht!
 Nun beginnt das Lustige!  
