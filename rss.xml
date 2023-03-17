@@ -4,40 +4,15 @@
         <title>Lern Blog Blog</title>
         <link>https://mcdelarosa.github.io/EF-Informatik/</link>
         <description>Lern Blog Blog</description>
-        <lastBuildDate>Fri, 17 Mar 2023 14:05:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Mar 2023 14:16:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
         <item>
-            <title><![CDATA[API-Theorie]]></title>
-            <link>https://mcdelarosa.github.io/EF-Informatik/API-Theorie</link>
-            <guid>/API-Theorie</guid>
-            <pubDate>Fri, 17 Mar 2023 14:05:21 GMT</pubDate>
-            <description><![CDATA[Was ist ein API?]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="was-ist-ein-api">Was ist ein API?<a class="hash-link" href="#was-ist-ein-api" title="Direkter Link zur Überschrift">​</a></h2><p>Application Programming Interface
-Beziehungsweise, das hilft dem Klient alles schneller und einfacher zu verstehen.<br>
-<!-- -->Dadurch, dass dies Visuell dargestellt werden.</p><ul><li>Protokolle:
-Diese sind Regeln die ein Programm (Computer) streng beachtet.</li><li>Methode:
-Das sind Handlungen, die der Klient dem Server befehlt (GET, POST, PUT, DELETE)   </li><li>Headers: Suchen nach deinem Gerät nach (welches PC du hast) und formatieren die Website so, dass du problemlos sie benutzen kannst</li><li>Body: der Klient verfügt über das ganze Kontrol und kann alles nachfragen.</li><li>Status Codes: Gibt dem Klient viel Information, falls irgendwo ein Fehler aufgetretten ist.</li></ul><p>JSON
-<code>
-{
-"crust": "original",
-"toppings": ["cheese", "pepperoni", "garlic"],
-"status": "cooking"
-}</code>
-<code>"crust"</code>,<code>"toppings"</code>, <code>"status"</code> heissen 'keys'.<br>
-<code>"original"</code>,<code>["cheese", "pepperoni", "garlic"]</code>, <code>"cooking"</code> heissen 'values'.</p><p>Content-Type header:
-Wenn der Klient sendet eine Anfrage im Content-Type header, berichtet dem Server, das die Daten eine bestimmte Formatierung haben.<br>
-<!-- -->Das Server wird danach die gesendete Daten prüfen, um sicherzustellen, dass es diese versteht (der Klient sendet mit den Daten, die Art wie das Server diese lesen kann).<br>
-<!-- -->Wenn der Klient die angewandte Formatierung nicht versteht, so kommt bei ihm eine Fehlermeldung.<br>
-<!-- -->Zuerst fragt das zweite HTTP header dem klient, welche Formatierungen er verwenden will/kann.<br>
-<!-- -->Falls das Server die gesandte Formatierungart des Klients nicht hat, so erhält der Klient eine Fehlermeldung vom Server.  </p><p>Authentifizierung:</p><ul><li>Zwei gegebene Informationen die zur Authentifizierung nutzen heissen 'credentials'</li><li>Zwei Authentifizierungschemen:<ul><li>'Basic Authentication':<ul><li>Braucht nur ein Benutzername und ein Passwort</li><li>Wird im 'header', 'Authorization' genannt, durchgeführt<ul><li>Da wird geprüft, ob diese mit den Daten aus der Liste des Servers übereinstimmen.</li></ul></li></ul></li><li>API Schlüsselauthentifizierung:<ul><li>ist ein 'Schlüssel', welcher aus vielen Zeichen besteht</li><li>Ermöglicht die Klientendaten zu lesen</li><li>Ist begrenzt und lässt Administratives nicht zu, zB.: Passwortänderung oder Accountlöschung</li></ul></li></ul></li></ul><p>'Integrations':</p><ul><li>'poilling': Wiederholung von Befragung nach Änderungen des Servers</li><li>'long pilling': Wiederholung von Befragung nach Änderungen des Servers aber mit Wartezeit</li></ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Node-API]]></title>
             <link>https://mcdelarosa.github.io/EF-Informatik/Node-API</link>
             <guid>/Node-API</guid>
-            <pubDate>Fri, 17 Mar 2023 14:05:21 GMT</pubDate>
+            <pubDate>Fri, 17 Mar 2023 14:16:34 GMT</pubDate>
             <description><![CDATA[Um einen "einfachen" API herzustellen, haben wir Node-RED gebraucht.]]></description>
             <content:encoded><![CDATA[<p>Um einen "einfachen" API herzustellen, haben wir Node-RED gebraucht.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="anleitung">Anleitung:<a class="hash-link" href="#anleitung" title="Direkter Link zur Überschrift">​</a></h2><p> <strong>Vorkenntnissen von API gebraucht!!!!</strong><br>
 <!-- -->So sollten alle, die gebrauchten Kästchen, aussehen (Verbindungen noch gebraucht und ganz normale Debug-Kästchen):
