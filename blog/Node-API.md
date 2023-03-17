@@ -36,9 +36,9 @@ Das ändert den Text so, dass die Wörter in der Array zu den nächsten Emojis e
 
 Erfahrungen:
 ---
-Meine Erfahrungen bis dahin sind nicht wirklich begeisterlich...  
+Meine Erfahrungen bis dahin sind nicht wirklich begeisternd...  
 Ich finde es gut, dass man eine **Software** hat für **"Nicht-Entwickler"**, denn eigentlich braucht man kaum zu programmieren, und vieles ist vereinfacht bzw: die Konvertierung des Codes in irgendeine andere Sprache.  
 Doch ich habe **anfangs**,und es kann wahrscheinlich an mir liegen, nicht viel gelernt...  
-Nachdem ich mir die Zeit genommen hatte etwa zu verstehen, wie das RED-Node funktionieren könnte, war mir alles verständlicher geworden.  
+Nachdem ich mir die Zeit genommen hatte etwas zu verstehen, wie das Node-RED funktionieren könnte, war mir alles verständlicher geworden.  
 Mir wäre es aber lieber, wenn wir das **Programmieren** könnten, anstatt diese App zu brauchen, mit der Gedanke, dass dies auch **herausfordender** wäre.  
 Schliesslich würde ich mehr **verstehen** und alles besser **geniessen**, glaube ich.
