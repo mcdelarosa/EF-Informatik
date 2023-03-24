@@ -4,7 +4,7 @@
         <title>Lern Blog Blog</title>
         <link>https://mcdelarosa.github.io/EF-Informatik/</link>
         <description>Lern Blog Blog</description>
-        <lastBuildDate>Fri, 17 Mar 2023 14:16:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Mar 2023 08:43:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Node-API]]></title>
             <link>https://mcdelarosa.github.io/EF-Informatik/Node-API</link>
             <guid>/Node-API</guid>
-            <pubDate>Fri, 17 Mar 2023 14:16:34 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 08:43:50 GMT</pubDate>
             <description><![CDATA[Um einen "einfachen" API herzustellen, haben wir Node-RED gebraucht.]]></description>
             <content:encoded><![CDATA[<p>Um einen "einfachen" API herzustellen, haben wir Node-RED gebraucht.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="anleitung">Anleitung:<a class="hash-link" href="#anleitung" title="Direkter Link zur Überschrift">​</a></h2><p> <strong>Vorkenntnissen von API gebraucht!!!!</strong><br>
 <!-- -->So sollten alle, die gebrauchten Kästchen, aussehen (Verbindungen noch gebraucht und ganz normale Debug-Kästchen):
@@ -26,7 +26,12 @@ Nun beginnt das Lustige!<br>
 <!-- -->Doch ich habe <strong>anfangs</strong>,und es kann wahrscheinlich an mir liegen, nicht viel gelernt...<br>
 <!-- -->Nachdem ich mir die Zeit genommen hatte etwas zu verstehen, wie das Node-RED funktionieren könnte, war mir alles verständlicher geworden.<br>
 <!-- -->Mir wäre es aber lieber, wenn wir das <strong>Programmieren</strong> könnten, anstatt diese App zu brauchen, mit der Gedanke, dass dies auch <strong>herausfordender</strong> wäre.<br>
-<!-- -->Schliesslich würde ich mehr <strong>verstehen</strong> und alles besser <strong>geniessen</strong>, glaube ich.</p>]]></content:encoded>
+<!-- -->Schliesslich würde ich mehr <strong>verstehen</strong> und alles besser <strong>geniessen</strong>, glaube ich.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="cookies">Cookies:<a class="hash-link" href="#cookies" title="Direkter Link zur Überschrift">​</a></h2><p>Cookies sind vom <strong>Server</strong> gespeicherte <strong>Daten</strong>, die vom <strong>Nutzer</strong> abhängig sind, bzw. bei jeder sind andere Daten gespeichert, also <strong>personalisierte</strong> Daten (können aber ähnlich sein).<br>
+<!-- -->Werden in <strong>Webseiten</strong> gebraucht und prüfen auch die <strong>Gültigkeit</strong>.<br>
+<!-- -->Diese sind praktisch, weil man die Daten nicht <strong>neunachfragen/-generieren</strong> muss.<br>
+<!-- -->Im <strong>Login</strong> ist es so, dass der Server den Nutzer durch Cookies <strong>erkennt</strong>, und dient bei uns dazu, dass er keine neue <strong>Account</strong> erstellt werden kann und auch zbsp. das Passwort und der Benutzername werden gespeichert.<br>
+<!-- -->Doch es ist auch <strong>nicht sicher</strong>. Denn alles wird im Computer des Klientes <strong>gespeichert</strong> und kann auch direkt vom Computer <strong>geändert</strong> werden, also kann die Website <strong>gehackt</strong> werden.
+Und bei uns sind diese Daten auch in einem Dokument gespeichert, welches <strong>nicht verschlüsselt</strong> wurde.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Numtrip-Abgabe]]></title>
