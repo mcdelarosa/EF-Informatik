@@ -42,3 +42,13 @@ Doch ich habe **anfangs**,und es kann wahrscheinlich an mir liegen, nicht viel g
 Nachdem ich mir die Zeit genommen hatte etwas zu verstehen, wie das Node-RED funktionieren könnte, war mir alles verständlicher geworden.  
 Mir wäre es aber lieber, wenn wir das **Programmieren** könnten, anstatt diese App zu brauchen, mit der Gedanke, dass dies auch **herausfordender** wäre.  
 Schliesslich würde ich mehr **verstehen** und alles besser **geniessen**, glaube ich.
+
+
+Cookies:
+---
+Cookies sind vom **Server** gespeicherte **Daten**, die vom **Nutzer** abhängig sind, bzw. bei jeder sind andere Daten gespeichert, also **personalisierte** Daten (können aber ähnlich sein).   
+Werden in **Webseiten** gebraucht und prüfen auch die **Gültigkeit**.  
+Diese sind praktisch, weil man die Daten nicht **neunachfragen/-generieren** muss.  
+Im **Login** ist es so, dass der Server den Nutzer durch Cookies **erkennt**, und dient bei uns dazu, dass er keine neue **Account** erstellt werden kann und auch zbsp. das Passwort und der Benutzername werden gespeichert.  
+Doch es ist auch **nicht sicher**. Denn alles wird im Computer des Klientes **gespeichert** und kann auch direkt vom Computer **geändert** werden, also kann die Website **gehackt** werden.
+Und bei uns sind diese Daten auch in einem Dokument gespeichert, welches **nicht verschlüsselt** wurde.
