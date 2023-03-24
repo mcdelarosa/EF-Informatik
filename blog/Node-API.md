@@ -46,7 +46,7 @@ Schliesslich würde ich mehr **verstehen** und alles besser **geniessen**, glaub
 
 Cookies:
 ---
-Cookies sind vom **Server** gespeicherte **Daten**, die vom **Nutzer** abhängig sind, bzw. bei jeder sind andere Daten gespeichert, also **personalisierte** Daten (können aber ähnlich sein).   
+Cookies sind kleine **Textdateien**, die vom **Browser** auf dem Computer des Nutzers gespeichert werden, die vom **Server** abhängig sind.   
 Werden in **Webseiten** gebraucht und prüfen auch die **Gültigkeit**.  
 Diese sind praktisch, weil man die Daten nicht **neunachfragen/-generieren** muss.  
 Im **Login** ist es so, dass der Server den Nutzer durch Cookies **erkennt**, und dient bei uns dazu, dass er keine neue **Account** erstellt werden kann und auch zbsp. das Passwort und der Benutzername werden gespeichert.  
